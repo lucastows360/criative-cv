@@ -1,0 +1,24 @@
+SITE CRIATIVE COMUNICACAO VISUAL - COMO PUBLICAR NO GITHUB PAGES
+
+Todos os arquivos ficam na MESMA pasta, sem subpastas:
+index.html, style.css, main.js e as fotos .jpg
+
+1. No GitHub, abra o repositorio (ex.: lucastows360/criative).
+   Se ja enviou o index.html antes, pode manter: ele sera substituido.
+2. Clique em "Add file" > "Upload files".
+3. Selecione TODOS os arquivos desta pasta de uma vez (Ctrl+A) e arraste para a pagina.
+   Importante: envie tambem style.css, main.js e todas as .jpg, nao so o index.html.
+4. Clique em "Commit changes".
+5. Settings > Pages > Branch "main" e pasta "/ (root)" > Save.
+6. Aguarde 1 a 2 minutos e abra https://lucastows360.github.io/criative/
+   (se a pagina aparecer sem estilo, aperte Ctrl+F5 para limpar o cache).
+
+Se o repositorio tiver outro nome, troque "lucastows360.github.io/criative" no index.html
+(tags canonical, og:url, og:image e o bloco JSON-LD).
+
+ADICIONAR FOTOS AO PORTFOLIO
+Envie a foto .jpg para a mesma pasta e acrescente uma linha na lista PROJETOS do main.js:
+  { src: "nome-da-foto.jpg", titulo: "Nome do cliente", cat: "fachadas" },
+Categorias: fachadas, letras, envelopamento, adesivos, banners.
+
+WHATSAPP do formulario: variavel WA_NUMERO no topo do main.js (hoje 5543996487663).
